@@ -23,6 +23,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Report changes in compressed file size on PR
-        uses: preactjs/compressed-size-action@v1
+        uses: preactjs/compressed-size-action@v2
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
